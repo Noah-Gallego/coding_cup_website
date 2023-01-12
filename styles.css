@@ -72,3 +72,14 @@ article {
 #content {
     width: 100%;
 }
+
+#linux-logo {
+    width: 20%;
+}
+#SEC-logo {
+    width: 28%;
+}
+#SWE-logo {
+    width: 43%;
+    height: 50%;
+}
