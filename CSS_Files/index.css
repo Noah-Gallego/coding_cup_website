@@ -1,29 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    perspective: 500px;
+/*    animation: transitionIn 0.75s;*/
+
+}
+.line {
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+  padding: 30px 0px 0px 0px;
+  margin-bottom: 16px;
+}
+
+/* lineup class and keyframes */
+.lineUp {
+  animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
 #welcome-content {
     text-align: center;
 }
 
 #event-text {
     white-space: nowrap;
-    background-color: #002A53;
+    background-color: #00085c;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: #DAA520;
-    margin: 10px auto 25px auto;
+    margin: 0px auto 25px auto;
 }
 
 #footer {
     background-color: #777;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
 }
 
+.border{
+  padding-bottom: 20px;
+
+}
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+hr{
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 75%;
+  opacity: 10%;
+}
 ul {
-    width: 1394px;
+    width: 80%;
     padding: 15px;
     margin: 0px auto 0px auto;
-    border-top: 2px solid #000;
+    border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     text-align: center;
 }
