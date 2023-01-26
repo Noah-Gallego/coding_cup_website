@@ -1,1 +1,1 @@
-# coding_cup_website
+# Coding Cup Website V2
