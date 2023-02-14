@@ -6,6 +6,33 @@ body {
 #welcome-content {
     text-align: center;
 }
+/*
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 50%;
+  text-align: center;
+}
+
+.profile-picture {
+  margin-bottom: 20px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 
 #event-text {
     white-space: nowrap;
@@ -19,7 +46,7 @@ body {
 
 #footer {
     background-color: #777;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     color: white;
 }
@@ -108,12 +135,12 @@ a:hover, a.on {
 
 p {
    float: center;
-   width: 33%;
+   width: 27%;
    height: auto;
    background: #ccc;
    padding: 20px;
    margin-right: 10px;
-   margin-left: 100px;
+   margin-left: 10px;
    font-size: 20px;
 }
 

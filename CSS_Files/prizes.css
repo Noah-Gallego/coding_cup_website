@@ -11,13 +11,22 @@
     color: #DAA520;
     margin: 0px auto 25px auto;
 }
+
+
 #footer {
     background-color: #777;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     color: white;
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    left: 0;
 }
-
+.container {
+    display: flex;
+  flex-direction: column;
+}
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -104,7 +113,6 @@ a:hover, a.on {
     color: #cc3333;
     background-color: #ffffff;
 }
-
 p {
    float: center;
    width: 33%;

@@ -68,9 +68,13 @@ hr{
 
 #footer {
     background-color: #777;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     color: white;
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    left: 0;
 }
 
 body {
